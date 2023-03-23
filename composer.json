@@ -1,0 +1,22 @@
+{
+    "name": "egorsychin/demo-oop",
+    "description": "qwer",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "egorsychin",
+            "email": "egorsychin@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+}
